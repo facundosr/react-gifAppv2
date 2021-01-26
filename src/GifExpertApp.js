@@ -33,7 +33,7 @@ export const GifExpertApp = () => {
     return (
         <div className={classes.root}>
 
-            <h2 className={classes.titleH2}>GifExpertApp</h2>
+            <h2 className={classes.titleH2}>GifApp: search gifs</h2>
             {/* //le mando una prop al addcategories y la referencia a setCategories entre {} */}
 
             <AddCategory setCategories= {setCategories}/>           
